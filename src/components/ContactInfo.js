@@ -17,6 +17,7 @@ function ContactInfo(props) {
       {props.contact.phone}
       <br />
       {props.contact.address}
+      {props.contact.isLike}
       <br />
     </div>
   );
